@@ -1,0 +1,379 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.containar{
+	width: 1140px;
+	margin: auto;
+}
+.header{
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu{
+	margin-top: 32px;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 16px;
+	margin-right: 16px;
+}
+.menu ul li a{
+	font-family: 'Open Sans', sans-serif;
+}
+.menu ul li a:hover{
+	color: tomato;
+}
+.menu-batton button{
+	background-color: #1E266D;
+	color: white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 15px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 3px;
+}
+.menu-batton button:hover{
+	background-color: tomato;
+	transform: scale(1.2);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.contact-info{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.c-area{
+	display: flex;
+	background-color: #2e367D;
+	border-radius: 10px;
+	padding: 60px 80px;
+}
+.c-item{
+	flex-basis: 50%;
+}
+.c-item h3{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+.c-item p{
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	margin-bottom: 8px;
+}
+--------------------------
+.banner{
+	width: 100%;
+	padding: 60px 0px;
+}
+.banner-row{
+	display: flex;
+	margin-bottom: 30px;
+}
+.banner-col{
+	flex-basis: 50%;
+	margin-right: 20px;
+}
+.banner-col img{
+	max-width: 100%;
+	height: auto;
+}
+.banner-col h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.banner-col p{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+.banner-btn{
+	background-color: #1e266d;
+	color: #fff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.heading{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+---------------------------------
+
+
+.Projects{
+	width: 100%;
+	padding: 60px 0px;
+}
+.Projects-row{
+	display: flex;
+	margin-bottom: 30px;
+}
+.Projects-col{
+	flex-basis: 50%;
+	margin-right: 20px;
+}
+.Projects-col img{
+	max-width: 100%;
+	height: auto;
+}
+.Projects-col h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.Projects-col p{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+.Projects-btn{
+	background-color: #1e266d;
+	color: #fff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.Projects-heading{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+
+-------------------------------
+
+.help{
+	width: 100%;
+	padding: 60px 0px;
+}
+.help-row{
+	display: flex;
+	margin-bottom: 30px;
+}
+.help-col{
+	flex-basis: 50%;
+	margin-left: 20px;
+}
+.help-col img{
+	max-width: 100%;
+	height: auto;
+}
+.help-col h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.help-col p{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+.help-btn{
+	background-color: #1e266d;
+	color: #fff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.help-heading{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+-----------------------------------------------------------------------------------------------------------------------------
+
+.Earning{
+	width: 100%;
+	padding: 60px 0px;
+}
+.Earning-row{
+	display: flex;
+	margin-bottom: 30px;
+}
+.Earning-col{
+	flex-basis: 50%;
+	margin-right: 20px;
+}
+.Earning-col img{
+	max-width: 100%;
+	height: auto;
+}
+.Earning-col h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.Earning-col p{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+.Earning-btn{
+	background-color: #1e266d;
+	color: #fff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.Earning-heading{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+
+
+
+
+.Privilege{
+	width: 100%;
+	padding: 60px 0px;
+}
+.Privilege-row{
+	display: flex;
+	margin-bottom: 30px;
+}
+.Privilege-col{
+	flex-basis: 50%;
+	margin-left: 20px;
+}
+.Privilege-col img{
+	max-width: 100%;
+	height: auto;
+}
+.Privilege-col h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 45px;
+	margin-bottom: 20px;
+}
+.Privilege-col p{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+.Privilege-btn{
+	background-color: #1e266d;
+	color: #fff;
+	padding: 16px 32px;
+	border-radius: 8px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+}
+.Privilege-heading{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	font-size: 22px;
+	font-weight: 300px;
+	margin-right: 70;
+	margin-bottom: 20px;
+}
+
+
+----------------------------------------------------------------------------------------------------------------------------
+.footer{
+	width: 100%;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.footar-raw{
+	display: flex;
+	margin-bottom: 60px;
+}
+.footer-col{
+	flex-basis: 25%;
+	font-family: 'Open Sans', sans-serif;
+	margin-right: 30px;
+
+}
+.footer-col h3{
+	color: #1e266d;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+.footer-col p{
+	color: #91a3bb;
+	line-height: 1.7;
+}
+.footer-col ul li{
+	list-style: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #91a3bb;
+	line-height: 1.7;
+}
+.footer-col ul li a:hover{
+	color: tomato;
+	margin-left: 8px;
+	transition: 0.6s;
+}
+
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	color: #333333;
+	margin: 0px 0px 30px;
+}
+h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+}
+.trade{
+	font-family: 'Open Sans', sans-serif;
+	color: #1e266d;
+	text-align: center;
+	margin: 0px 0px px;
+}
